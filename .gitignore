@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Medical imaging data: never committed
+data/
+*.nii
+*.nii.gz
+*.dcm
+
+# Model weights and training outputs
+checkpoints/
+*.pt
+*.pth
+runs/
